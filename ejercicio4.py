@@ -1,7 +1,6 @@
 def check_username(username):
     """Takes an username and checks if it's valid"""
-    alphanumeric = [char.isdigit() or char.isalpha() for char in username]
-    return (len(username) >= 5) & (any(char.isdigit() for char in username)) & (any(char.isupper() for char in username)) & (all(alphanumeric))
+    return (len(username) >= 5) & (any(char.isdigit() for char in username)) & (any(char.isupper() for char in username)) & (all(char.isalnum() for char in username))
 
 user = input("Ingresa un nombre de usuario:")
 if check_username(user):
