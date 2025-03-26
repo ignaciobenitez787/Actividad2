@@ -19,6 +19,6 @@ If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!"""
 zen_split = zen.splitlines()
 for sentence in zen_split:
-    words = sentence.lower().split()
-    if words[1].startswith(("a","e","i","o","u")):
+    words = sentence.split()
+    if words[1].lower().startswith(("a","e","i","o","u")):
         print (sentence)
