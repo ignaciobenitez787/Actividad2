@@ -1,1 +1,0 @@
-from .funciones import check_username, calcular_puntos, calcular_mvp
