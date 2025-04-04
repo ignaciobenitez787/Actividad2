@@ -1,6 +1,6 @@
 Para ejecutar este programa se debe instalar Python (https://www.python.org/downloads/). Versión recomendada 3.12.9.
 
-Dentro del repositorio de github, descarguelo en formato zip.
+Dentro del repositorio de github, descarguelo en formato zip (Haciendo click en Code y despues en Download Zip).
 
 Luego, se debe instalar Jupyter Notebook utilizando pip install notebook dentro de tu terminal.
 
